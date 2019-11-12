@@ -60,12 +60,12 @@ def reduce_to_all_true(source_array)
   new_value = 0
   
   while index < source_array.length do 
-    new_value += source_array[index] 
-    
+    if new_value += source_array[index] 
+     true 
     index += 1 
   end 
   
-  new_value
+  false
 end 
 
 def reduce_to_any_true(source_array)
