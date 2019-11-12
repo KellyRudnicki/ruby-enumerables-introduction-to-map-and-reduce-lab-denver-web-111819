@@ -45,14 +45,14 @@ end
 
 
 def reduce_to_total(source_array, starting_point)
-  new_array = []
+  new_value = 0
   index = 0 
   
   while index < source_array.length do 
-    new_array.push(source_array[index], starting_point[index])
+    new_value = source_array[index] + starting_point
     index += 1 
   end 
-  return new_array
+  return new_value
 end 
 
 def reduce_to_all_true(source_array)
