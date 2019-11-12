@@ -49,7 +49,7 @@ def reduce_to_total(source_array, starting_point)
   index = 0 
   
   while index < source_array.length do 
-    source_array.each(new_value = source_array[index] + starting_point
+    source_array.each ( source_array[index] + starting_point )
     index += 1 
   end 
   return new_value
