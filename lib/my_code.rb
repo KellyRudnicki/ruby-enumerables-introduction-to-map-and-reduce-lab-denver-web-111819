@@ -65,7 +65,7 @@ def reduce_to_all_true(source_array)
     end
     index += 1 
   end 
-  return "truthy value"
+  return new_value
 end 
 
 def reduce_to_any_true(source_array)
