@@ -52,7 +52,7 @@ def reduce_to_total(source_array, starting_point)
     new_array.push(source_array[index, starting_point])
     index += 1 
   end 
-  return value
+  return new_array
 end 
 
 def reduce_to_all_true(source_array)
